@@ -1,0 +1,175 @@
+/*
+  "80's RGB Nostalgia"
+
+  Released under Creative Commons License
+  http://creativecommons.org/licenses/by-nc-sa/1.0/
+
+  Feel free to use this CSS any way you want.
+  I would be happy if you left in a comment containing my name + website
+  if you find it useful.
+
+  James Wilkes
+  28 Jan 2010
+  james@rootdev.com
+  http://www.jameswilkesdesign.co.uk/
+
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+HTML {
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+}
+BODY {
+	min-width: 800px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; /* IE6 fix page centering */
+}
+DIV.container {
+	min-width: 800px;
+	width: 800px;
+}
+
+DIV {
+	text-align: left;
+}
+DIV.content {
+	text-align: justify;
+}
+
+DIV.header {
+	background-image: url('images/top.png');
+	background-repeat:repeat-y;
+	background-position:top right;
+	padding-right: 80px;
+}
+
+DIV.green {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	background-image: url('images/green.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+DIV.blue {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	background-image: url('images/blue.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+
+DIV.navbar {
+	background-image: url('images/leftright.png');
+	background-repeat:repeat-y;
+	background-position:top right;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+/* somehow this makes IE8 background image on DIV.navbar work - go figure!? */
+DIV.menu {
+	border: 1px solid black;
+}
+DIV.content {
+	min-height: 40px;
+	background-image: url('images/leftright.png');
+	background-repeat:repeat-y;
+	background-position:top right;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+DIV.footer {
+	height: 40px;
+	background-image: url('images/bottom.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+
+H1 {
+	display: inline;
+	font-size: 48pt;
+	color: white;
+	text-shadow: 0px 0px 6px white;
+	border: 0px;
+	margin: 0px;
+	padding: 0px 60px 0px 0px;
+	background-image: url('images/topbarend.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+H2 {
+	font-size: 18pt;
+	color: white;
+	text-shadow: 0px 0px 4px white;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+H3 {
+	font-size: 14pt;
+}
+UL {
+	padding-left: 0px;
+	list-style-type: none;
+}
+LI {
+	padding: 9px 4px 9px 36px;
+	background-image: url('images/dot.png');
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+LABEL {
+	padding: 4px 4px 4px 0px;
+	display: block;
+}
+INPUT, TEXTAREA {
+	font-family: Monospace;
+	color: white;
+	background: #333;
+	padding: 4px 4px 4px 0px;
+	border: 1px solid white;
+	display: block;
+}
+INPUT.button {
+	padding: 2px;
+	margin: 12px 0px 0px 0px;
+	display: block;
+	font-family: Monospace;
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+	background: red;
+}
+
+UL.menu {
+	padding-left: 0px;
+	list-style: none;
+}
+LI.menu {
+	padding: 0px;
+	background-image: none;
+	display:inline;
+	white-space: nowrap;
+	padding-right: 20px;
+}
+A {
+	color: red;
+	text-shadow: 0px 0px 2px red;
+}
+P {
+	padding-bottom: 12px;
+}
+
