@@ -45,7 +45,7 @@ DIV.content {
 }
 
 DIV.header {
-	background-image: url('images/top.png');
+	background-image: url('Images/top.png');
 	background-repeat:repeat-y;
 	background-position:top right;
 	padding-right: 80px;
@@ -56,7 +56,7 @@ DIV.green {
 	padding: 0px;
 	margin: 0px;
 	height: 40px;
-	background-image: url('images/green.png');
+	background-image: url('Images/green.png');
 	background-repeat:no-repeat;
 	background-position:top right;
 }
@@ -65,13 +65,13 @@ DIV.blue {
 	padding: 0px;
 	margin: 0px;
 	height: 40px;
-	background-image: url('images/blue.png');
+	background-image: url('Images/blue.png');
 	background-repeat:no-repeat;
 	background-position:top right;
 }
 
 DIV.navbar {
-	background-image: url('images/leftright.png');
+	background-image: url('Images/leftright.png');
 	background-repeat:repeat-y;
 	background-position:top right;
 	padding-left: 60px;
@@ -83,7 +83,7 @@ DIV.menu {
 }
 DIV.content {
 	min-height: 40px;
-	background-image: url('images/leftright.png');
+	background-image: url('Images/leftright.png');
 	background-repeat:repeat-y;
 	background-position:top right;
 	padding-left: 60px;
@@ -92,7 +92,7 @@ DIV.content {
 
 DIV.footer {
 	height: 40px;
-	background-image: url('images/bottom.png');
+	background-image: url('Images/bottom.png');
 	background-repeat:no-repeat;
 	background-position:top right;
 }
@@ -105,7 +105,7 @@ H1 {
 	border: 0px;
 	margin: 0px;
 	padding: 0px 60px 0px 0px;
-	background-image: url('images/topbarend.png');
+	background-image: url('Images/topbarend.png');
 	background-repeat:no-repeat;
 	background-position:top right;
 }
@@ -126,7 +126,7 @@ UL {
 }
 LI {
 	padding: 9px 4px 9px 36px;
-	background-image: url('images/dot.png');
+	background-image: url('Images/dot.png');
 	background-repeat:no-repeat;
 	background-position:top left;
 }
